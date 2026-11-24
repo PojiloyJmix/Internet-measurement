@@ -26,3 +26,13 @@ cd Internet-measurement
 ## Usage
 
 node script.js "<URL>"
+
+
+## Units
+
+- **Time** (`#N`, `average time`) — milliseconds (ms)
+- **Body size** (`#N`) — bytes
+- **Total downloaded** — megabytes (MB), binary (1 MB = 1024 × 1024 bytes)
+- **Speed** — megabytes per second (MB/s), binary (1 MB/s = 1 048 576 bytes/s)
+
+The script uses 1024-based (binary) units, so "MB" means MiB.
